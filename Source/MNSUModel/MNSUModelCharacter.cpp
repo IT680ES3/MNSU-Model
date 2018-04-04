@@ -84,12 +84,12 @@ void AMNSUModelCharacter::OnResetVR()
 
 void AMNSUModelCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
 {
-		Jump();
+	Jump();
 }
 
 void AMNSUModelCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location)
 {
-		StopJumping();
+	StopJumping();
 }
 
 void AMNSUModelCharacter::TurnAtRate(float Rate)
